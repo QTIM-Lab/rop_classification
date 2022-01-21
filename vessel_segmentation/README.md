@@ -1,6 +1,14 @@
 # vessel-segmentation
 
+![outputs/Example.png](outputs/Example.png)
+
+Left: Preprocessed input, Middle: Ground truth, Right: Prediction
+
+### Summary
 This repository contains code for a U-net model for vessel segmentation (Adapted from https://github.com/mitseng/RetinalVesselSegmentation) which is further used for ROP classification.
+
+### Environment
+**environment.yml** contains the dependencies for the conda environment.
 
 ### Training using db_train.csv: [Trained model will be stored in models/]
 ```
